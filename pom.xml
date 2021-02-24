@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.tencent.tsf</groupId>
+        <artifactId>spring-cloud-tsf-dependencies</artifactId>
+        <version>1.21.7-Finchley-RELEASE</version>
+    </parent>
+
+    <groupId>io.dracula</groupId>
+    <artifactId>test-tsf-logging</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.tencent.tsf</groupId>
+            <artifactId>spring-cloud-tsf-starter</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
